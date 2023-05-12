@@ -5,6 +5,8 @@ import { Link } from "react-router-dom"
 import { BsTelephoneFill } from 'react-icons/bs';
 import { AiOutlineUser } from 'react-icons/ai';
 import { useState } from 'react';
+import sitelogo from '../../Assests/sitelogo.png';
+import mono from '../../Assests/mono.png';
 
 const Navbar = () => {
   const [mobilenav, setMobilenav] = useState(false);
@@ -27,8 +29,8 @@ const Navbar = () => {
         <div className='row'>
           <div className='col-md-3 pt-1'>
             {scrollY < 100 ?
-              <Link className="h-100 w-100  d-flex align-items-center" to="/">
-                <img src='./sitelogo.png' alt='No logo' className='img-fluid' style={{objectFit:'cover'}}/>
+              <Link className="h-100 w-100 d-flex align-items-center" to="/">
+                <img src={sitelogo} alt='No logo' className='img-fluid' style={{objectFit:'cover'}}/>
               </Link> 
               :
               <>
@@ -38,9 +40,9 @@ const Navbar = () => {
                   </div>
                 </div>
                 <div className='row'>
-                <div className='col-md-12 pt-1'>
+                <div className='col-md-12 logo_column'>
                   <Link className="d-flex align-items-end" to="/">
-                    <img src='./sitelogo.png' alt='No logo' className='img-fluid' style={{ objectFit: 'contain', height:'50px', width:'auto' }} />
+                    <img src={sitelogo} alt='No logo' className='img-fluid' />
                   </Link>
                   </div>
                 </div>
@@ -216,7 +218,7 @@ const Navbar = () => {
       <div className='col-md-12 py-2 mobile_navigation'>
         <div className='row'>
           <div className='col-md-6 col-6 px-0'>
-            <Link to='/'><img src='./sitelogo.png' alt='No logo' className='img-fluid img_small' /></Link>
+            <Link to='/'><img src={sitelogo} alt='No logo' className='img-fluid img_small' /></Link>
           </div>
 
           <div className='col-md-6 col-6 text-end m-auto' style={{ position: 'relative' }}>
@@ -251,7 +253,7 @@ const Navbar = () => {
             <div className='col-md-12 menu_content'>
               <div className='row mbl-header-row'>
                 <div className='col-md-3 col-3' >
-                  <Link to='/'><img className='img-fluid' src='./mono.png' /></Link>
+                  <Link to='/'><img className='img-fluid' src={mono} /></Link>
                 </div>
                 <div className='col-md-9 col-9 m-auto'>
                   <span class="badge bg-warning bg_color_golden">Guests</span>

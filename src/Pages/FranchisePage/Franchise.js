@@ -3,9 +3,9 @@ import "./Franchise.scss";
 
 const Franchise = () => {
     return (
-        <div className="main-wrapper">
-            <div className='img-wrapper'>
-                <img src="franchiseimages/f1.jpg" alt='No image' className='mt-2 w-100' />
+        <div className="container shadow p-0 mb-5">
+            <div className='w-100'>
+                <img src="franchiseimages/f1.jpg" alt='No image' className='w-100' />
             </div>
             <div className='img-wrapper'>
                 <img src="franchiseimages/f2.jpg" alt='No image' className='mt-2 w-100' />

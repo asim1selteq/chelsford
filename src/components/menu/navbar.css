@@ -98,6 +98,16 @@
     color: #d9bd3e;
 }
 
+.logo_column{
+    padding-top: 7px;
+}
+
+.logo_column img{
+    object-fit: contain; 
+    height:50px; 
+    width:auto
+}
+
 
 @media screen and (max-width: 880px) {
     .background_color_button {
