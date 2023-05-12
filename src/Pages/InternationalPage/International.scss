@@ -1,0 +1,249 @@
+.background_img {
+    // background-image: url('../../../public/internationalimages/intBanner.jpg');
+    background-color: #1e185f;
+    background-position: 50%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 60vh;
+}
+
+.border_set {
+    background: #fff;
+    box-shadow: 1px 8px 7px rgba(0, 0, 0, .1);
+    border-radius: 10px;
+}
+
+.send_message {
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    color: #1e185f;
+}
+
+.fae--main-container {
+    display: flex;
+    width: 100%;
+}
+
+.shadow-box-padding {
+    box-shadow: none;
+    padding: 0;
+}
+
+.primary-shadow-box {
+    background-color: #fff;
+}
+
+.fae--shadow-box {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    // box-shadow: 0 10px 20px rgba(0, 0, 0, .1);
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.input_message {
+    padding: 0;
+    border-radius: 5px;
+}
+
+.golden_text
+{
+    color: #d9bd3e;
+    font-size: 32px;
+    font-weight: 600;
+}
+
+.sub_line_head {
+    color: #4a4a4a;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.background_last {
+    background-color: #f1f5fe;
+}
+
+.input_message {
+    background-color: #edf6fe;
+    border: none;
+    border-radius: 0 !important;
+    resize: none;
+}
+
+.MuiInput-root {
+    position: relative;
+}
+
+.MuiInputBase-root {
+    color: rgba(0, 0, 0, 0.87);
+    cursor: text;
+    display: inline-flex;
+    position: relative;
+    font-size: 1rem;
+    box-sizing: border-box;
+    align-items: center;
+    font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+    font-weight: 400;
+    line-height: 1.1876em;
+    letter-spacing: 0.00938em;
+}
+
+.MuiInputBase-input:invalid {
+    box-shadow: none;
+}
+
+.MuiInputBase-input {
+    font: inherit;
+    color: currentColor;
+    width: 100%;
+    border: 0;
+    height: 1.1876em;
+    margin: 0;
+    display: block;
+    padding: 6px 0 7px;
+    min-width: 0;
+    background: none;
+    box-sizing: content-box;
+    animation-name: mui-auto-fill-cancel;
+    letter-spacing: inherit;
+    animation-duration: 10ms;
+    -webkit-tap-highlight-color: transparent;
+}
+
+.button_background {
+    background-color: hsla(0, 0%, 100%, 0);
+    border: none;
+}
+
+.background_color_blue {
+    background-color: #1e185f;
+}
+
+.off_on_all, .percent {
+    color: #d9bd3e;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+}
+
+.percent {
+    font-size: 32px;
+    font-weight: 600;
+}
+
+.background_color_of_inter {
+    background-color: #f1f5fe;
+    height: 20vh;
+}
+
+.background_neg_mar {
+    margin-top: -160px;
+}
+
+.background_card_style {
+    border-radius: 8px;
+    box-shadow: 0 0 6px 0 rgba(0,0,0,.16);
+    background-color: #fff;
+    height: 30vh;
+}
+
+.image_width_of_card {
+    width: 15%;
+}
+
+.card_sub_head {
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.card_head, .card_sub_head {
+    color: #4a4a4a;
+    font-stretch: normal;
+    font-style: normal;
+    letter-spacing: normal;
+}
+
+.background_image_about {
+    // background-image: url('/public/internationalimages/inter3.png');
+    background-size: 50% 200px;
+    background-repeat: no-repeat;
+}
+
+.background_aboutus {
+    background-color: #f1f5fe;
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
+}
+
+.give_you_top, .heading_train {
+    font-stretch: normal;
+    font-style: normal;
+}
+
+.heading_train {
+    color: #d9bd3e;
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 1;
+    letter-spacing: normal;
+}
+
+.border_left_aoutus {
+    border-left: 5px solid #d9bd3e;
+}
+
+.give_you_top {
+    color: #4a4a4a;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.give_you_top, .heading_train {
+    font-stretch: normal;
+    font-style: normal;
+}
+
+.give_you_top {
+    color: #4a4a4a;
+    font-size: 18px;
+    font-weight: 500;
+}
+.give_you_top, .heading_train {
+    font-stretch: normal;
+    font-style: normal;
+}
+
+.background_uk {
+    background-color: #1e185f;
+}
+
+.color_text_ibnter {
+    color: #fff;
+    font-size: 16px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+}
+
+.image_width_line {
+    width: 20%;
+}
+
+.pop_heading {
+    color: #1e185f;
+    font-size: 32px;
+    font-weight: 600;
+    font-stretch: normal;
+    font-style: normal;
+}
+
+.link_style_none, .link_style_none:hover {
+    text-decoration: none;
+}

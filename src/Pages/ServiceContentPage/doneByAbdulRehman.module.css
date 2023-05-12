@@ -1,0 +1,75 @@
+.fullContent {
+  width: 100%;
+  background-color: #fafafa;
+  padding: 10vh 0 5vh 0;
+}
+
+.fullContent div:first-child {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  max-width: 77vw;
+}
+
+.fullContent_summary {
+  margin: auto 0;
+  width: 46vw;
+  padding-right: 6vw;
+}
+
+.fullContent_getintouch{
+    width: 25vw;
+}
+
+.fullContent_summary strong {
+  display: none;
+}
+
+@media (max-width: 767px) {
+  .fullContent div:first-child {
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto 0;
+    text-align: center;
+    width: 100%;
+    max-width: 100%;
+  }
+
+  .fullContent{
+    padding-bottom: 0;
+  }
+
+  .fullContent_summary {
+    padding-right: 0;
+    padding: 0 24px;
+  }
+
+  .fullContent_getintouch {
+    background-image:linear-gradient(
+        180deg,
+        rgba(70, 109, 168, 0) 41.08%,
+        rgba(19, 17, 46, 0.8) 76.5%,
+        #13112e 86.36%
+      ), url("../../Assests/contactimages/cheerful-millennial.png")
+      ;
+      /* height: 35vh; */
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    mix-blend-mode: normal;
+    width: 100%;
+    min-height: max-content;
+  }
+
+  .fullContent_summary strong {
+    display: block;
+    color: #1E185F !important;
+    font-family: 'Roboto' !important;
+    font-style: normal;
+    font-weight: bolder;
+    font-size: 30px;
+    text-align: center;
+  }
+}

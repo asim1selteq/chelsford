@@ -1,0 +1,188 @@
+@import "../../App.scss";
+@import "../../mediaQueries.scss";
+.fae--vertical-image {
+    width: 22%;
+    flex: 4;
+    margin: 10px;
+}
+#course-info-section{
+    display: none;
+}
+
+.paraa_graph_text
+{
+  line-height: 22px;
+  letter-spacing: 1px;
+  word-spacing: 2px;
+}
+
+.background_image_aboutus
+{
+  background-image: url(../../Assests/Images/about.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+
+.padding_image
+{
+  padding-top: 10%;
+}
+
+.font_text
+{
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 40px;
+  color: #FFFFFF;
+  line-height: 60px;
+
+}
+
+.react-multiple-carousel__arrow
+{
+  background-color: rgba(211, 211, 211, 0) !important; 
+  
+}
+
+.text_why_with_us
+{
+  font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 24px;
+/* identical to box height, or 147% */
+
+
+color: #FFFFFF;
+
+}
+
+ul li::before {
+  content: "\2022";  /* Add content: \2022 is the CSS Code/unicode for a bullet */
+  color: #D9BD3E; /* Change the color */
+  font-weight: bold; /* If you want it to be bold */
+  display: inline-block; /* Needed to add space between the bullet and the text */
+  width: 1em; /* Also needed for space (tweak if needed) */
+  margin-left: -0.9em; /* Also needed for space (tweak if needed) */
+  
+}
+
+ul {
+  list-style: none; /* Remove default bullets */
+}
+
+.color_li
+{
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 20px;
+  /* identical to box height, or 111% */
+  
+  
+  color: #FFFFFF;
+}
+
+.react-multiple-carousel__arrow--left::before
+{
+  color: black !important;
+  font-weight: 900;
+  padding-right: 100% !important;
+}
+
+.react-multiple-carousel__arrow--right::before
+{
+  color: black !important;
+  font-weight: 900;
+  padding-left: 100% !important;
+}
+
+
+.text_para_advance
+{
+  font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 24px;
+/* or 147% */
+
+
+color: #686868;
+}
+
+.image_top_mar_neg
+{
+  margin-top: -90px;
+}
+
+.img_width_landing
+{
+  width: 65%;
+  box-shadow: 1px 1px 10px 10px rgba(211, 211, 211, 0.17);
+  border-radius: 10px;
+}
+
+// .background_card_color_aboutus
+// {
+  
+  
+//   padding-top: 3%;
+//   padding-bottom: 3%;
+//   border-width: 2px;
+//   border-style: solid;
+//   border-image: 
+//     linear-gradient(
+//       to bottom, 
+//       rgba(0, 0, 0, 0),
+//       #D9BD3E, 
+//       rgba(0, 0, 0, 0)
+//     ) 1 100%;
+
+// }
+@media screen and (max-width: 600px) {
+
+  .fae--vertical-image {
+    width: 95% !important;
+    flex: auto;
+    margin: 10px 9px;
+  }
+    .fae--vertical-scroll-services {
+        display: block;
+    }
+    .fae--vertical-image {
+      width: 18%;
+      flex: auto;
+      margin: 10px 18px;
+    }
+      #course-info-section.course-information-sec{
+        padding: 20px;
+      } 
+      .font_mob_sec {
+        padding-bottom: 20px;
+        font-weight: bold;
+      }
+      .font_para_mob, .font_mob_sec{
+        color: white;
+        text-align: center;
+      }
+      #course-info-section{
+
+        display: block !important;
+        background-repeat: no-repeat;
+        background-position: 64% -7%;
+        min-height: 543px !important;
+        background-size: cover; 
+        padding: 25px 16px 21px 9px !important;
+    }
+    #example-collapse-text {
+      background-color: white; 
+      margin-top: 8px;
+      border-radius: 10px;
+      padding: 10px;
+  }
+}

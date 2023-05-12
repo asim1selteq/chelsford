@@ -1,0 +1,250 @@
+.background_image_contact_us
+{
+    background-image: url('https://1864597015.rsc.cdn77.org/chelsford/images/contactimages/background.png');
+    height: auto;
+    background-position: center;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    padding-bottom: 2%;
+}
+
+.text_white_heading
+{
+    padding-top: 4%;
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 24px;
+line-height: 19px;
+/* or 80% */
+
+text-align: center;
+letter-spacing: 0.025em;
+
+color: #FFFFFF;
+
+}
+
+.sub_heading
+{
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 22px;
+/* or 157% */
+
+text-align: center;
+letter-spacing: 0.01em;
+
+color: #FFFFFF;
+
+opacity: 0.8;
+padding-top: 1%;
+}
+
+.address_head
+{
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 600;
+font-size: 18px;
+line-height: 19px;
+/* or 107% */
+
+letter-spacing: 0.02em;
+
+color: #D9BD3E;
+}
+
+.address_sub_head
+{
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 26px;
+/* or 186% */
+
+letter-spacing: 0.04em;
+
+color: #FFFFFF;
+
+opacity: 0.8;
+}
+
+.border_set
+{
+    background: #FFFFFF;
+box-shadow: 1px 8px 7px rgba(0, 0, 0, 0.1);
+border-radius: 10px;
+}
+
+.send_message
+{
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 19px;
+/* or 120% */
+
+text-align: center;
+
+color: #1E185F;
+}
+
+.input_message
+{
+    background-color: #EDF6FE;
+    border: none;
+    border-radius: 0px !important;
+    resize: none;
+}
+
+.g_map
+{
+    border: 0px;
+    filter: drop-shadow(0px 6px 20px rgba(0, 0, 0, 0.15));
+    border-radius: 9px;
+}
+
+.central_london
+{
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 600;
+font-size: 22px;
+line-height: 19px;
+/* or 87% */
+
+text-align: center;
+letter-spacing: 0.02em;
+
+color: #1E185F;
+}
+
+.paragraph_central
+{
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 24px;
+/* identical to box height, or 171% */
+
+text-align: center;
+letter-spacing: 0.01em;
+
+color: #484848;
+
+opacity: 0.8;
+}
+
+.underground_font
+{
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 600;
+font-size: 16px;
+line-height: 22px;
+/* or 141% */
+
+letter-spacing: 0.02em;
+
+color: #1E185F;
+}
+
+.padding_top_equal
+{
+    padding-top: 8%;
+}
+
+.underground_font1
+{
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 29px;
+/* or 343% */
+
+letter-spacing: 0.01em;
+
+color: #000000;
+
+opacity: 0.8;
+}
+
+.background_color_blue
+{
+    background: rgba(223, 230, 255, 0.96);
+}
+
+.text_heading_qualified
+{
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 22px;
+line-height: 40px;
+/* or 183% */
+
+letter-spacing: 0.025em;
+
+color: #1E185F;
+}
+.sub_heading_text
+{
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 32px;
+/* or 175% */
+
+letter-spacing: 0.01em;
+
+color: #484848;
+
+opacity: 0.8;
+}
+
+.button_background
+{
+    background-color: rgba(255, 255, 255, 0);
+    border: none;
+}
+
+.input_message
+{
+    padding: 0px 0px;
+    border-radius: 5px;
+}
+
+.input_message::placeholder
+{
+    padding-left: 5% !important;
+}
+
+.shadow-box-padding  
+{
+    box-shadow: none;
+}
+
+.shadow-box-padding
+{
+    padding: 0px 0px;
+}
+
+.MuiInputBase-input::placeholder
+{
+    padding-left: 10% !important;
+    font-size: 90%;
+}
+
+.fae--text
+{
+    margin: 5px !important;
+}   
+

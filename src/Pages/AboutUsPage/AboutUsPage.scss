@@ -1,0 +1,57 @@
+@import "../../App.scss";
+@import "../../mediaQueries.scss";
+
+.fae--about-us-main-container {
+  @include flex(center, center);
+  flex-direction: column;
+  gap: $default-section-gap;
+  width: 60%;
+}
+
+.fae--about-us-page-services-description {
+  @include flex(center, center);
+  flex-direction: column;
+  gap: 5px;
+}
+.fae--about-us-main-container p {
+  color: #626262;
+  font-size: 16px;
+  line-height: 25px;
+  padding: 0px 10px;
+}
+.fae-about-header{ 
+    font-size: 25px !important;
+}
+
+.fae--about-us-descriptions-and-images {
+  @include flex(center, center);
+  gap: 40px;
+}
+
+.fae--about-us-descriptions-and-images-mid-section {
+  @include flex(center, center);
+  gap: 40px;
+}
+
+@include tablet {
+  .fae--about-us-main-container {
+    width: 80%;
+  }
+}
+
+@include mobile {
+  .sub-heading { 
+    padding-top: 12px;
+  }
+  .fae--about-us-main-container {
+    width: 95%;
+  }
+  .fae--about-us-descriptions-and-images {
+    flex-direction: column;
+    gap: 20px;
+  }
+  .fae--about-us-descriptions-and-images-mid-section {
+    flex-direction: column-reverse;
+    gap: 20px;
+  }
+}

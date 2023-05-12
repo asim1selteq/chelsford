@@ -1,0 +1,46 @@
+@import "../../App.scss";
+@import "../../mediaQueries.scss";
+.fae--services-page-container {
+  @include flex(center, none);
+  flex-direction: column;
+  gap: $default-section-gap;
+  padding-top: 10px;
+}
+
+.fae-services-page-name-and-image-container {
+  @include flex(center, center);
+  flex-direction: column;
+  gap: 5px;
+}
+.cfd-courses-list .fae--vertical-image {
+  // width: 20% !important;
+  /* flex: auto; */
+  margin: 12px;
+}
+.cfd-courses-list {
+  width: 100%;
+  margin: auto;
+  margin-top: -71px;
+}
+.fae--services-page-services-container {
+  width: 98%;
+}
+.fae--services-page-services-container .fae--service-card-image-or-video {
+  border-radius: 5px 5px 0px 0px;
+  height: 197px;
+  object-fit: cover;
+}
+@include onlyDesktop {
+  .fae--services-page-services-container {
+   padding-bottom: 4rem;
+   } 
+ }
+ @include mobile {
+  .cfd-courses-list {
+    width: 98%;
+    margin: -16px auto auto !important;
+  }
+ .fae--service-card-text-mobile {
+   font-size: 16px;
+  }
+ }

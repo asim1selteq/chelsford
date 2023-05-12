@@ -1,0 +1,247 @@
+.background_newfooter
+{
+    background-color: rgb(24, 17, 94);
+    overflow-x: hidden;
+    padding-left: 3%;
+    padding-right: 3%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+}
+
+.background_newfooter_mob
+{
+    background-color: rgb(24, 17, 94);
+    overflow-x: hidden;
+    padding-left: 3%;
+    padding-right: 3%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    display: none;
+
+}
+
+.img_width_footer
+{
+    width: 65%;
+}
+
+.get_in_touch
+{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 19px;
+    /* or 107% */
+    
+    letter-spacing: 0.02em;
+    
+    color: #D9BD3E;
+}
+
+.text_contact_addd
+{
+    color: lightgray;
+    font-size: 90%;
+}
+
+.color_icon
+{
+    color: #D9BD3E;
+}
+
+.btn_rad_warning2
+{
+    background-color: rgb(140, 136, 175);
+    padding-left: 7%;
+    padding-right: 7%;
+    padding-top: 4%;
+    padding-bottom: 4%;
+    margin-left: 1.5%;
+    border-radius: 50px;
+    color: #18115E;
+    transition: 0.9s;
+    cursor: pointer;
+}
+
+.btn_rad_warning2:hover
+{
+    background-color: #D9BD3E;
+    padding-left: 7%;
+    padding-right: 7%;
+    padding-top: 4%;
+    padding-bottom: 4%;
+    margin-left: 1.5%;
+    border-radius: 50px;
+    color: #18115E;
+    transition: 0.9s;
+}
+
+.btn_rad_warning1
+{
+    background-color: rgb(140, 136, 175);
+    padding-left: 6%;
+    padding-right: 6%;
+    padding-top: 4%;
+    padding-bottom: 4%;
+    margin-left: 1.5%;
+    border-radius: 50px;
+    color: #18115E;
+    transition: 0.9s;
+    cursor: pointer;
+}
+
+
+.btn_rad_warning1:hover
+{
+    background-color: #D9BD3E;
+    padding-left: 6%;
+    padding-right: 6%;
+    padding-top: 4%;
+    padding-bottom: 4%;
+    margin-left: 1.5%;
+    border-radius: 50px;
+    color: #18115E;
+}
+
+.btn_rad_warning
+{
+    background-color: rgb(140, 136, 175);
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top: 4%;
+    padding-bottom: 4%;
+    margin-left: 1.5%;
+    border-radius: 50px;
+    color: #18115E;
+    transition: 0.9s;
+    cursor: pointer;
+}
+
+.btn_rad_warning:hover
+{
+    background-color: #D9BD3E;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top: 4%;
+    padding-bottom: 4%;
+    margin-left: 1.5%;
+    border-radius: 50px;
+    color: #18115E;
+}
+
+@media only screen and (max-width: 600px) {
+    .background_newfooter
+    {
+        background-color: rgb(24, 17, 94);
+        overflow-x: hidden;
+        padding-left: 3%;
+        padding-right: 3%;
+        padding-top: 1%;
+        padding-bottom: 1%;
+        display: none;
+        
+    }
+    
+    .background_newfooter_mob
+    {
+        background-color: rgb(24, 17, 94);
+        overflow-x: hidden;
+        padding-left: 3%;
+        padding-right: 3%;
+        padding-top: 1%;
+        padding-bottom: 1%;
+        display: block;
+    
+    }
+    .img_width_footer
+{
+    width: 45%;
+}
+.btn_rad_warning2
+{
+    background-color: rgb(140, 136, 175);
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top: 4%;
+    padding-bottom: 4%;
+    margin-left: 1.5%;
+    border-radius: 50px;
+    color: #18115E;
+    transition: 0.9s;
+    cursor: pointer;
+}
+
+.btn_rad_warning2:hover
+{
+    background-color: #D9BD3E;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top: 4%;
+    padding-bottom: 4%;
+    margin-left: 1.5%;
+    border-radius: 50px;
+    color: #18115E;
+    transition: 0.9s;
+}
+
+.btn_rad_warning1
+{
+    background-color: rgb(140, 136, 175);
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top: 4%;
+    padding-bottom: 4%;
+    margin-left: 1.5%;
+    border-radius: 50px;
+    color: #18115E;
+    transition: 0.9s;
+    cursor: pointer;
+}
+
+
+.btn_rad_warning1:hover
+{
+    background-color: #D9BD3E;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top: 4%;
+    padding-bottom: 4%;
+    margin-left: 1.5%;
+    border-radius: 50px;
+    color: #18115E;
+}
+
+.btn_rad_warning
+{
+    background-color: rgb(140, 136, 175);
+    padding-left: 4%;
+    padding-right: 4%;
+    padding-top: 4%;
+    padding-bottom: 4%;
+    margin-left: 1.5%;
+    border-radius: 50px;
+    color: #18115E;
+    transition: 0.9s;
+    cursor: pointer;
+}
+
+.btn_rad_warning:hover
+{
+    background-color: #D9BD3E;
+    padding-left: 4%;
+    padding-right: 4%;
+    padding-top: 4%;
+    padding-bottom: 4%;
+    margin-left: 1.5%;
+    border-radius: 50px;
+    color: #18115E;
+}
+
+.margin_active
+{
+    padding-top: 10%;
+    margin-bottom: 5%;
+}
+
+  }

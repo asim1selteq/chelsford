@@ -1,0 +1,54 @@
+* {
+    box-sizing: border-box;
+}
+
+.gallary {
+    overflow: hidden;
+    white-space: nowrap;
+    position: relative;
+}
+
+@keyframes slide {
+    from {
+        transform: translateX(0);
+    }
+
+    to {
+        transform: translateX(-100%);
+    }
+}
+
+.gallary-slide {
+    animation: 12s slide infinite linear;
+    display: inline-block;
+}
+
+.sliderImg {
+    height: 300px;
+    width: auto;
+    margin: 0 5px;
+}
+
+.gallary:hover .gallary-slide {
+    animation-play-state: paused;
+}
+
+.gallary:before,
+.gallary:after {
+    position: absolute;
+    top: 0;
+    width: 60px;
+    height: 100%;
+    content: "";
+    z-index: 2;
+}
+
+.gallary:before {
+    left: 0;
+    background: linear-gradient(to left, rgba(255, 255, 255, 0), white);
+}
+
+.gallary:after {
+    right: 0;
+    background: linear-gradient(to right, rgba(255, 255, 255, 0), white);
+}
