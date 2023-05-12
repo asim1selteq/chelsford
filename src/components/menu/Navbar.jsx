@@ -30,8 +30,8 @@ const Navbar = () => {
           <div className='col-md-3 pt-1'>
             {scrollY < 100 ?
               <Link className="h-100 w-100 d-flex align-items-center" to="/">
-                <img src={sitelogo} alt='No logo' className='img-fluid' style={{objectFit:'cover'}}/>
-              </Link> 
+                <img src={sitelogo} alt='No logo' className='img-fluid' style={{ objectFit: 'cover' }} />
+              </Link>
               :
               <>
                 <div className='row'>
@@ -40,10 +40,10 @@ const Navbar = () => {
                   </div>
                 </div>
                 <div className='row'>
-                <div className='col-md-12 logo_column'>
-                  <Link className="d-flex align-items-end" to="/">
-                    <img src={sitelogo} alt='No logo' className='img-fluid' />
-                  </Link>
+                  <div className='col-md-12 logo_column'>
+                    <Link className="d-flex align-items-end" to="/">
+                      <img src={sitelogo} alt='No logo' className='img-fluid' />
+                    </Link>
                   </div>
                 </div>
               </>
@@ -68,7 +68,7 @@ const Navbar = () => {
             <div className='row'>
               <div className='col-md-12 padding_set_new' >
                 <div className='row'>
-                  <div className='col-md-9' style={{height:'35px'}}>
+                  <div className='col-md-9' style={{ height: '35px' }}>
                     <div className='row px-3 h-100'>
                       <div className='col-md-3 dropdown'>
                         <Link className="nav-link multi-menu-link menu-link" to="#">Courses <span className="sr-only">(current)</span></Link>
@@ -247,79 +247,83 @@ const Navbar = () => {
           </div>
         </div>
 
-        <div className='col-md-12 mt-3' style={{borderTop: mobilenav || mblCourse ?'1px solid blue' :''}}>
-        {mobilenav && !mblCourse ?
-          (
-            <div className='col-md-12 menu_content'>
-              <div className='row mbl-header-row'>
-                <div className='col-md-3 col-3' >
-                  <Link to='/'><img className='img-fluid' src={mono} /></Link>
+        <div className='col-md-12 mt-3' style={{ borderTop: mobilenav || mblCourse ? '1px solid blue' : '' }}>
+          {mobilenav && !mblCourse ?
+            (
+              <div className='col-md-12 menu_content'>
+                <div className='row mbl-header-row'>
+                  <div className='col-md-12 col-12 d-flex justify-content-center align-items-center'>
+                    <Link to='/'><img className='img-fluid' src={mono} style={{ height: '70px', width: 'auto' }} /></Link>&nbsp;&nbsp;
+                  </div>
                 </div>
-                <div className='col-md-9 col-9 m-auto'>
-                  <span class="badge bg-warning bg_color_golden">Guests</span>
+                <div className='row'>
+                  <div className='col-md-12 col-12 d-flex justify-content-center align-items-center'>
+                    <span className="py-1 px-3 bg_color_golden">Guests</span>
+                  </div>
+                </div>
+
+                <div className='col-md-12 px-3'>
+                <hr className='px-5'/>
+
+                  <Link to='/events' onClick={() => setMobilenav(false)}>
+                    <button className='btn btn-primary w-100 mt-2 background_color_button'>Events</button>
+                  </Link>
+
+                  <Link to='/franchise' onClick={() => setMobilenav(false)}>
+                    <button className='btn btn-primary w-100 mt-2 background_color_button'>Franchise</button>
+                  </Link>
+
+                  <Link to='/international' onClick={() => setMobilenav(false)}>
+                    <button className='btn btn-primary w-100 mt-2 background_color_button'>International</button>
+                  </Link>
+
+                  <Link to='/about-us' onClick={() => setMobilenav(false)}>
+                    <button className='btn btn-primary w-100 mt-2 background_color_button'>About Us</button>
+                  </Link>
+
+                  <Link to='/contact-us' onClick={() => setMobilenav(false)}>
+                    <button className='btn btn-primary w-100 mt-2 background_color_button'>Contact Us</button>
+                  </Link>
+
+                  <Link to='/account' onClick={() => setMobilenav(false)}>
+                    <button className='btn btn-primary w-100 mt-2 background_color_button'>Login</button>
+                  </Link>
+
+                  <Link to='/account' onClick={() => setMobilenav(false)}>
+                    <button className='btn btn-primary w-100 mt-2 background_color_button'>Signup</button>
+                  </Link>
                 </div>
               </div>
+            ) :
+            (
+              null
+            )
+          }
 
-              <div className='col-md-12 px-3'>
-                <Link to='/events' onClick={() => setMobilenav(false)}>
-                  <button className='btn btn-primary w-100 mt-2 background_color_button'>Events</button>
-                </Link>
-
-                <Link to='/franchise' onClick={() => setMobilenav(false)}>
-                  <button className='btn btn-primary w-100 mt-2 background_color_button'>Franchise</button>
-                </Link>
-
-                <Link to='/international' onClick={() => setMobilenav(false)}>
-                  <button className='btn btn-primary w-100 mt-2 background_color_button'>International</button>
-                </Link>
-
-                <Link to='/about-us' onClick={() => setMobilenav(false)}>
-                  <button className='btn btn-primary w-100 mt-2 background_color_button'>About Us</button>
-                </Link>
-
-                <Link to='/contact-us' onClick={() => setMobilenav(false)}>
-                  <button className='btn btn-primary w-100 mt-2 background_color_button'>Contact Us</button>
-                </Link>
-
-                <Link to='/account' onClick={() => setMobilenav(false)}>
-                  <button className='btn btn-primary w-100 mt-2 background_color_button'>Login</button>
-                </Link>
-
-                <Link to='/account' onClick={() => setMobilenav(false)}>
-                  <button className='btn btn-primary w-100 mt-2 background_color_button'>Signup</button>
-                </Link>
+          {mblCourse && !mobilenav ?
+            (
+              <div className='col-md-12 menu_content pt-3'>
+                <div className='col-md-12 px-3'>
+                  <Link to='/laser-courses' onClick={() => setMblCourses(false)}>
+                    <button className='btn btn-primary w-100 background_color_button'>Laser</button>
+                  </Link>
+                  <Link to='/beauty-courses' onClick={() => setMblCourses(false)}>
+                    <button className='btn btn-primary w-100 mt-2 background_color_button'>Beauty</button>
+                  </Link>
+                  <Link to='/medical-courses' onClick={() => setMblCourses(false)}>
+                    <button className='btn btn-primary w-100 mt-2 background_color_button'>Medical</button>
+                  </Link>
+                  <Link to='/online-courses' onClick={() => setMblCourses(false)}>
+                    <button className='btn btn-primary w-100 mt-2 background_color_button'>Online</button>
+                  </Link>
+                </div>
               </div>
-            </div>
-          ) :
-          (
-            null
-          )
-        }
-
-        {mblCourse && !mobilenav ?
-          (
-            <div className='col-md-12 menu_content pt-3'>
-              <div className='col-md-12 px-3'>
-                <Link to='/laser-courses' onClick={() => setMblCourses(false)}>
-                  <button className='btn btn-primary w-100 background_color_button'>Laser</button>
-                </Link>
-                <Link to='/beauty-courses' onClick={() => setMblCourses(false)}>
-                  <button className='btn btn-primary w-100 mt-2 background_color_button'>Beauty</button>
-                </Link>
-                <Link to='/medical-courses' onClick={() => setMblCourses(false)}>
-                  <button className='btn btn-primary w-100 mt-2 background_color_button'>Medical</button>
-                </Link>
-                <Link to='/online-courses' onClick={() => setMblCourses(false)}>
-                  <button className='btn btn-primary w-100 mt-2 background_color_button'>Online</button>
-                </Link>
-              </div>
-            </div>
-          ) :
-          (
-            null
-          )
-        }
-      </div>
+            ) :
+            (
+              null
+            )
+          }
+        </div>
       </div>
 
 
