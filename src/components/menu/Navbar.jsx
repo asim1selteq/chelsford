@@ -21,7 +21,7 @@ const Navbar = () => {
     return () => {
       window.removeEventListener("scroll", handleScroll);
     };
-  }, []);
+  }, [scrollY]);
 
   return (
     <>
@@ -30,13 +30,13 @@ const Navbar = () => {
           <div className='col-md-3 pt-1'>
             {scrollY < 100 ?
               <Link className="h-100 w-100 d-flex align-items-center" to="/">
-                <img src={sitelogo} alt='No logo' className='img-fluid' style={{ objectFit: 'cover' }} />
+                <img src={sitelogo} alt='No logo' className='img-fluid object-fit-cover' />
               </Link>
               :
               <>
                 <div className='row'>
-                  <div className='col-md-12 px-4 py-1' style={{ visibility: 'hidden' }}>
-                    hidden text
+                  <div className='col-md-12 px-4 py-1 invisible'>
+                    Hidden text
                   </div>
                 </div>
                 <div className='row'>
@@ -120,7 +120,7 @@ const Navbar = () => {
                     </div>
                   </div>
                   <div className='col-md-3 ps-sm-0 text-end'>
-                    <p className='mb-0 pt-1'><BsTelephoneFill className='display_icon_none' />&nbsp;0800 955 0054 &nbsp;</p>
+                    <p className='mb-0 pt-1'><BsTelephoneFill className='display_icon_none' style={{fontSize:'20px'}}/>&nbsp;&nbsp; 0800 955 0054 &nbsp;</p>
                   </div>
                 </div>
               </div>
@@ -253,7 +253,7 @@ const Navbar = () => {
               <div className='col-md-12 menu_content'>
                 <div className='row mbl-header-row'>
                   <div className='col-md-12 col-12 d-flex justify-content-center align-items-center'>
-                    <Link to='/'><img className='img-fluid' src={mono} style={{ height: '70px', width: 'auto' }} /></Link>&nbsp;&nbsp;
+                    <Link to='/'><img className='img-fluid w-auto' src={mono} style={{ height: '70px' }} /></Link>&nbsp;&nbsp;
                   </div>
                 </div>
                 <div className='row'>
@@ -263,7 +263,7 @@ const Navbar = () => {
                 </div>
 
                 <div className='col-md-12 px-3'>
-                <hr className='px-5'/>
+                  <hr className='px-5' />
 
                   <Link to='/events' onClick={() => setMobilenav(false)}>
                     <button className='btn btn-primary w-100 mt-2 background_color_button'>Events</button>
